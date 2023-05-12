@@ -1,0 +1,30 @@
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Alexismaingi",
+    "email": "alexisssmagish@gmail.com",
+    "password": "alemaingi"
+}
+
+###
+ 
+GET http://localhost:5000/users
+
+####
+
+GET http://localhost:5000/users/email/alexismagish@gmail.com
+
+
+###
+POST http://localhost:5000/users/login
+Content-Type: application/json
+
+{
+    "email": "alexismagish@gmail.com",
+    "password": "alemaingi"
+}
+
+
+####
+GET http://localhost:5000/users/name/Alexis maingi
